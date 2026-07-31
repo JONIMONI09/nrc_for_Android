@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SeekBarPreference">
+        <attr name="min" format="integer" />
+        <attr name="seekBarIncrement" format="integer" />
+    </declare-styleable>
+    <attr name="seekBarPreferenceStyle" format="reference" />
+
+    <!-- ColorAccent is usually provided by appcompat, but if missing we can define it -->
+    <attr name="colorAccent" format="color" />
+    <attr name="editTextStyle" format="reference" />
+</resources>

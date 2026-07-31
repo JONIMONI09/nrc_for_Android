@@ -1,0 +1,1 @@
+import{invoke as p}from"./core-B-kpOdcZ.js";async function i(n,o){await p("plugin:opener|open_url",{url:n,with:o})}async function t(n,o){await p("plugin:opener|open_path",{path:n,with:o})}export{t as openPath,i as openUrl};
